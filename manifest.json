@@ -1,0 +1,17 @@
+{
+  "name": "AI Resume Analyzer",
+  "short_name": "ResumeAI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e3c72",
+  "theme_color": "#1e3c72",
+  "description": "AI Resume Analyzer App for HR & Candidates",
+  "icons": [
+    {
+      "src": "/app_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
