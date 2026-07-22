@@ -1,0 +1,28 @@
+{
+    "hr_email": "manosuppu96@gmail.com",
+    "hr_password": "mano272006",
+    "job_title": "Junior Python Developer",
+    "qualifications": "- Must have at least 1-2 years of experience in Python programming.\n- Good knowledge of SQL databases.\n- Experience with web frameworks like Streamlit, Flask, or Django.\n",
+    "job_id": "e69ac151",
+    "applications": {
+        "KEY-FK6HV1": {
+            "candidate_name": "mano",
+            "candidate_contact": "9025935721",
+            "submitted_at": "2026-07-22 09:56:23",
+            "ai_result": {
+                "approved": true,
+                "reason": "The candidate meets the core qualifications with 2 years of Python programming experience, knowledge of SQL databases, and experience with the Streamlit web framework."
+            }
+        },
+        "KEY-9JLKVR": {
+            "candidate_name": "mano",
+            "candidate_contact": "9025935721",
+            "submitted_at": "2026-07-22 09:58:55",
+            "ai_result": {
+                "approved": false,
+                "reason": "The candidate lacks experience in Python programming, SQL databases, and web frameworks like Streamlit, Flask, or Django, and their background is in marketing instead."
+            }
+        }
+    },
+    "is_published": false
+}
