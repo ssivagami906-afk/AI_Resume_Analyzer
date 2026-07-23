@@ -6,11 +6,14 @@ import uuid
 import random
 import string
 
-DB_FILE = os.path.join("data", "app_database.db")
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DB_PATH = os.environ.get("DB_PATH", os.path.join(PROJECT_ROOT, "data", "app_database.db"))
 
 def get_connection():
-    os.makedirs("data", exist_ok=True)
-    conn = sqlite3.connect(DB_FILE, check_same_thread=False)
+    db_dir = os.path.dirname(DB_PATH)
+    if db_dir:
+        os.makedirs(db_dir, exist_ok=True)
+    conn = sqlite3.connect(DB_PATH, check_same_thread=False)
     conn.row_factory = sqlite3.Row
     return conn
 
